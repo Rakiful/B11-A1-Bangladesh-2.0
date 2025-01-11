@@ -39,7 +39,7 @@ body{
     justify-content: space-between;
     background-color: rgb(198, 228, 214);
     height: 560px;
-    margin: 24px 192px;
+    margin: 35px 192px;
     padding: 71px;
     border-radius: 25px;
 }
@@ -80,7 +80,7 @@ body{
 
 /* Vision of Future section style here */
 .Vision-of-Future-section-content{
-    margin: 24px 192px;
+    margin: 60px 192px;
 }
 .Vision-of-Future-section-content .section-title{
     color: rgb(14, 14, 14);
@@ -195,7 +195,7 @@ body{
 
 /* Recent News section style here */
 .recent-news-section-content{
-    margin: 24px 192px;
+    margin: 60px 192px;
 }
 .recent-news-section-content .section-title{
     color: rgb(14, 14, 14);
@@ -255,6 +255,70 @@ body{
     margin-top: 10px;
 }
 .recent-news-card-item button:hover{
+    color: rgb(0, 106, 80);
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Donate section style here */
+.donate-section-content{
+    margin: 60px 192px;
+    text-align: center;
+}
+.donate-section-content h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.donate-section-content p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 40px auto;
+    width: 1300px;
+}
+.donate-section-content .ammount-boxs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.donate-section-content .ammount-boxs input{
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8); 
+    border: 1px solid rgb(172, 162, 162);
+    padding: 40px 0px;
+    text-align: center; 
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 15px;
+    width: 250px;
+}
+.donate-section-content .ammount-boxs input:focus {
+    outline: none; 
+}
+.donate-section-content .ammount-boxs input:hover {
+    background-color: rgb(198, 228, 214);
+}
+.donate-section-content .manual-input{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 40px;
+    margin: 40px auto;
+    width: 1180px;
+    border: none;
+    text-align: center;
+}
+.donate-section-content button{
+    border-radius: 7px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    padding: 13px 27px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgb(0, 106, 80);
+}
+.donate-section-content button:hover{
     color: rgb(0, 106, 80);
     background-color: white;
     cursor: pointer;
