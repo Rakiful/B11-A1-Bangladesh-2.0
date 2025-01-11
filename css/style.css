@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* header section style here */
 #header-section{
     width: 100%;
     font-family: "Fira Sans", serif;
@@ -31,7 +32,8 @@
     color: white;
     cursor: pointer;
 }
-/* banner section style here  */
+
+/* banner section style here*/
 #banner-section{
     width: 100%;
     font-family: "Fira Sans", serif;
@@ -78,4 +80,120 @@
 #banner-section .banner-section-content .right-content {
     display: block;
     margin: auto 0;
+}
+
+/* Vision of Future section style here */
+#Vision-of-Future-section{
+    width: 100%;
+    font-family: "Fira Sans", serif;
+}
+.Vision-of-Future-section-content{
+    margin: 24px 192px;
+}
+.Vision-of-Future-section-content h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.Vision-of-Future-section-content .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.Vision-of-Future-cards{
+    display: flex;
+    gap: 20px;
+}
+.Vision-of-Future-card-item-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 40px;
+    border-radius: 20px;
+}
+.Vision-of-Future-card-item-1 h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+.Vision-of-Future-card-item-1 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0px;
+    height: 80px;
+}
+.Vision-of-Future-card-item-1 button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(84, 144, 245);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(84, 144, 245);
+    border-radius: 8px;
+}
+.Vision-of-Future-card-item-1 button:hover{
+    color: rgb(84, 144, 245);
+    background-color: white;
+    cursor: pointer;
+}
+
+.Vision-of-Future-card-item-2{
+    background-color: rgb(198, 228, 214);
+    padding: 40px;
+    border-radius: 20px;
+}
+.Vision-of-Future-card-item-2 h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+.Vision-of-Future-card-item-2 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0px;
+    height: 80px;
+}
+.Vision-of-Future-card-item-2 button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(9, 161, 92);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(9, 161, 92);
+    border-radius: 8px;
+}
+.Vision-of-Future-card-item-2 button:hover{
+    color: rgb(9, 161, 92);
+    background-color: white;
+    cursor: pointer;
+}
+
+.Vision-of-Future-card-item-3{
+    background-color: rgb(247, 235, 207);
+    padding: 40px;
+    border-radius: 20px;
+}
+.Vision-of-Future-card-item-3 h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+.Vision-of-Future-card-item-3 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0px;
+    height: 80px;
+}
+.Vision-of-Future-card-item-3 button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 194, 57);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 194, 57);
+    border-radius: 8px;
+}
+.Vision-of-Future-card-item-3 button:hover{
+    color: rgb(255, 194, 57);
+    background-color: white;
+    cursor: pointer;
 }
