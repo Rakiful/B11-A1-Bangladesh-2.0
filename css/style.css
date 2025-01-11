@@ -399,3 +399,18 @@ body{
     background-color: white;
     cursor: pointer;
 }
+
+#footer-section{
+    background-color: rgb(255, 255, 255) ;
+    text-align: center;
+    padding: 80px 192px;
+}
+.footer-section-content hr{
+    margin: 20px 0px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-section-content .icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
