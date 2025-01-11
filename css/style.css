@@ -2,3 +2,80 @@
     margin: 0;
     padding: 0;
 }
+
+#header-section{
+    width: 100%;
+    font-family: "Fira Sans", serif;
+}
+#header-section .header-section-content{
+    display: flex;
+    margin: 30px 192px;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-section .header-section-content .left-content h1{
+    font-size: 42px;
+    font-weight: 700px;
+}
+#header-section .header-section-content .right-content button{
+    border-radius: 10px;
+    color: rgb(0, 106, 80);
+    background-color: white;
+    padding: 20px 51px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgb(0, 106, 80);
+}
+#header-section .header-section-content .right-content button:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+}
+/* banner section style here  */
+#banner-section{
+    width: 100%;
+    font-family: "Fira Sans", serif;
+}
+#banner-section .banner-section-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    height: 560px;
+    margin: 24px 192px;
+    padding: 71px;
+    border-radius: 25px;
+}
+#banner-section .banner-section-content .left-content{
+    display: block;
+    margin: auto 0;
+}
+#banner-section .banner-section-content .left-content p{
+    font-size: 29px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+#banner-section .banner-section-content .left-content h1{
+    font-size: 67px;
+    font-weight: 700;
+    width: 730px;
+    margin-top: 19px;
+    margin-bottom: 29px;
+}
+#banner-section .banner-section-content .left-content button{
+    border-radius: 10px;
+    background: rgb(0, 106, 80);
+    color: white;
+    padding: 20px 51px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgb(0, 106, 80);
+}
+#banner-section .banner-section-content .left-content button:hover{
+    background: rgb(247, 248, 248);
+    color: rgb(0, 106, 80);
+    cursor: pointer;
+}
+#banner-section .banner-section-content .right-content {
+    display: block;
+    margin: auto 0;
+}
