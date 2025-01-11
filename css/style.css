@@ -193,6 +193,31 @@ body{
     width: 100%;
 }
 
+/* Quote section style here */
+#quote-section{
+    margin: 80px 192px;
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 223, 219);
+    border-radius: 25px;
+}
+.quote-section-content{
+    background-image: url(../assets/images/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 28px;
+}
+.quote-section-content p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+.quote-section-content h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* Recent News section style here */
 .recent-news-section-content{
     margin: 60px 192px;
